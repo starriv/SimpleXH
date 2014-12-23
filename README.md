@@ -7,7 +7,6 @@
 * sidebar-right.php 微博秀和Github需要替换为你自己的
 
 
-
 #感谢
 感谢国产优秀开源前端框架Amazeui
 * [Amazeui](http://amazeui.org/)
