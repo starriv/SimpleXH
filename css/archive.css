@@ -1,0 +1,110 @@
+#archives:after {      
+    clear: both;      
+    display: block;      
+    visibility: hidden;      
+    height: 0!important;      
+    content: " ";      
+    font-size: 0!important;      
+    line-height: 0!important     
+}   
+   
+#archives {      
+
+}   
+   
+#archives-content {      
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+
+}   
+#archives-content h3{
+	font-size: 1.5em;
+}
+#archive-nav {      
+    float: left;      
+    width: 50px     
+}   
+   
+.archive-nav {      
+    display: block;      
+    position: fixed;      
+    background: #f9f9f9;      
+    width: 40px;      
+    padding: 5px;      
+    border: 1px solid #eee;      
+    text-align: center     
+}   
+   
+.year {      
+    border-top: 1px solid #ddd     
+}   
+   
+.month {      
+    color: #ccc;      
+    padding: 5px;      
+    cursor: pointer;      
+    background: #f9f9f9     
+}   
+   
+.month.monthed {      
+    color: #777     
+}   
+   
+.month.selected,.month:hover {      
+    background: #f2f2f2     
+}   
+   
+.monthall {      
+    display: none     
+}   
+   
+.year.selected .monthall {      
+    display: block     
+}   
+   
+.year-toogle {      
+    display: block;      
+    padding: 5px;      
+    text-decoration: none;      
+    background: #eee;      
+    color: #333;      
+    font-weight: bold     
+}   
+   
+.archive-title {      
+    padding-bottom: 40px     
+}   
+   
+.brick {      
+    margin-bottom: 10px     
+}   
+   
+.archives a {      
+    position: relative;      
+    display: block;      
+    padding: 10px;      
+    background-color: #f9f9f9;      
+    color: #333;      
+    font-style: normal;      
+    line-height: 18px     
+}   
+   
+.time {      
+    color: #888;      
+    padding-right: 10px     
+}   
+   
+.archives a:hover {      
+    background: #eee     
+}   
+   
+#archives h3 {      
+    padding-bottom: 10px     
+}   
+   
+.brick em {      
+    color: #aaa;      
+    padding-left: 10px     
+}
