@@ -6,6 +6,7 @@
 * Sidebar-left.php  需要手动替换你的页面的地址和分类目录
 * sidebar-right.php 微博秀和Github需要替换为你自己的
 * links.php 友情链接也是需要自己手动往里面插数据，表格模板我已做好
+* comments.php  评论我采用的是Disqus（类似国内的多说，不喜欢的话可以自己替换成喜欢的第三方评论系统，直接覆盖代码即可
 
 
 #感谢
