@@ -5,4 +5,4 @@
 #感激
 感谢国产优秀开源前端框架Amazeui
 
-* [mou](http://amazeui.org/) 
+* [Amazeui](http://amazeui.org/) 
