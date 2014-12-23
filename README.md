@@ -7,5 +7,5 @@
 * [Amazeui](http://amazeui.org/) 
 #注意
 下面列举一些需要自己修改的地方
-* Sidebar-left.php <!--需要手动替换你的页面的地址和分类目录-->
-* sidebar-right.php <!-- 微博秀和Github需要替换为你自己的-->
+* Sidebar-left.php  /*需要手动替换你的页面的地址和分类目录 */
+* sidebar-right.php /*微博秀和Github需要替换为你自己的 */
