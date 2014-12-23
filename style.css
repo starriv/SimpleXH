@@ -36,7 +36,7 @@ body{
 .header{
 	background: url("img/header.png");
 	box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
-    background-size:cover; 
+    background-size:cover;
     height:556px;
 }
 #header-text{
@@ -54,7 +54,7 @@ body{
 	font-weight: 300;
 	position:static;
 	margin-top:70px;
-	
+
 }
 .title a{
 	color: #fff;
@@ -123,12 +123,12 @@ transition: all .3s linear;
 	background: #149C82;
 }
 #backtop {
-		position:fixed; 
-		bottom:100px; 
-		right:20px; 
-		width:23px; 
-		height:23px; 
-		cursor:pointer; 
+		position:fixed;
+		bottom:100px;
+		right:20px;
+		width:23px;
+		height:23px;
+		cursor:pointer;
 		margin-right: 2em;
 		}
 .page{
@@ -144,8 +144,8 @@ transition: all .3s linear;
 .page-text{
 	padding-top: 1em;
 	padding-bottom: 3em;
-	padding-left: 3em;
-	padding-right: 3em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 .post-header{
 	color: #E8E8E8  !important;
@@ -193,7 +193,7 @@ color: #fff;
 	margin-left: auto;
 	text-align: center;
 	margin-top: 1.2em;
-	
+
 }
 #button a{
 	color:#fff !important;
