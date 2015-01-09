@@ -15,6 +15,7 @@
 
 
 #版权
+<p>采用MIT协议分发</p>
 <blockquote>
 Copyright (C) <year> <copyright holders>
 
