@@ -17,7 +17,7 @@
 
 <hr data-am-widget="divider" style="" class="am-divider am-divider-default"
 />
-   	<div class="am-article-bd page-text">
+   	<div class="am-article-bd page-text" id="page-text">
    		<p>		
    			<?php $this->content(); ?>
    		</p>

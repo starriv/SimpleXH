@@ -14,7 +14,7 @@ html{
 }
 body{
 	background: #f0f2f7 !important;
-	font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans","wenquanyi micro hei","Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+	font-family: "museo300", "Microsoft YaHei";
 }
 @font-face {
 	font-family:"微软雅黑";
@@ -27,6 +27,18 @@ body{
 	font-family:"open sans";
 	src: url('fonts/opensans.woff');
 }
+@font-face {
+    font-family: 'museo300';
+    src: url('fonts/museo300-regular-webfont.eot');
+    src: url('fonts/museo300-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/museo300-regular-webfont.woff2') format('woff2'),
+         url('fonts/museo300-regular-webfont.woff') format('woff'),
+         url('fonts/museo300-regular-webfont.ttf') format('truetype'),
+         url('fonts/museo300-regular-webfont.svg#museo300') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 .am-article-meta{
 	font-size:1.6rem !important;
 }
@@ -34,15 +46,17 @@ body{
 	color: #fff !important;
 }
 .header{
-	background: url("img/header.png");
 	box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
     background-size:cover;
     height:556px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #header-text{
-	box-shadow: none;
+	text-shadow: 2px 4px 5px rgba(3,3,3,0.6);
 	height: 250px;
 	width: 100%;
+	font-family: "museo300","Microsoft YaHei";
 }
 .am-offcanvas{
     background:rgba(98, 98, 98, 0.73);
@@ -60,12 +74,13 @@ body{
 	color: #fff;
 	font-family: open sans;
 	font-size:1em;
+	font-family: "museo300","Microsoft YaHei";
 }
 .title a:hover{
 	color: #1ABC9C;
 }
 .description{
-	font-family: 微软雅黑;
+	font-family:'museo300',微软雅黑;
 	font-size: 1.5em;
 	text-align: center;
 	color: rgba(255, 255, 255, 0.97);
@@ -77,8 +92,7 @@ body{
 	margin-top: 3em;
 }
 #post{
-	border: 1px solid #C7C7C7;
-	width: 70%;
+	width: 88%;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:3em;
@@ -87,7 +101,7 @@ body{
 }
 .post-title{
 	padding-left: 1em;
-	font-family: "open sans";
+	font-family: "museo300","open sans","Microsoft YaHei";
 	font-size: 2em;
 	font-weight: 100;
 	margin-top: 0.3em;
@@ -96,7 +110,8 @@ body{
 	font-weight: 500;
 }
 .post-title a{
-	color: #898989;
+	color: #3F3F3F;
+	font-family: "museo300","Microsoft YaHei"
 }
 .post-title a:hover{
 	color: rgba(4, 131, 1, 0.53);
@@ -125,9 +140,7 @@ transition: all .3s linear;
 #backtop {
 		position:fixed;
 		bottom:100px;
-		right:20px;
-		width:23px;
-		height:23px;
+		right:-20px;
 		cursor:pointer;
 		margin-right: 2em;
 		}
@@ -238,10 +251,14 @@ color: #fff;
 	color: #fff !important;
 }
 .comments{
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 3em;
+width: 80%;
+padding-left: 1em;
+padding-right: 1em;
+margin-left: auto;
+margin-right: auto;
+margin-top: 3em;
+background: #fff;
+border: none;
 }
 .am-offcanvas-bar{
 	position: fixed;
@@ -400,7 +417,7 @@ bottom: 0;
 	}
 
 .am-offcanvas-bar:after{
-	content: "";
+content: "";
 display: block;
 position: absolute;
 top: 0;
@@ -417,14 +434,16 @@ background: #262626;
 }
 footer{
     bottom:0;
-    background:#71777f;
+    background:#363d4d;
     padding:3em;
     margin-top:3.09em;
     text-align:center;
-    color: #333;
+    color: #BBC7CC;
+    font-family: "museo300";
+    font-size: 1.2em;
 }
 footer a{
-	color: #333;
+	color: #BBC7CC;
 }
 #author{
 	width: 80%;
@@ -450,4 +469,19 @@ footer a{
 	margin-left: 1.4em;
 	margin-right: 1.4em;
 	text-align: center;
+	color: #BBC7CC;
+}
+#index-concent{
+	margin-left: -10px;
+	margin-right: -10px;
+	letter-spacing:1px;
+	font-family: "museo300","Microsoft YaHei";
+
+}
+.am-article-meta{
+color:#242323 !important;
+}
+#page-text{
+	letter-spacing:1px;
+	font-family: "museo300","Microsoft YaHei"
 }

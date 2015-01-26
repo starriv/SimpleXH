@@ -1,3 +1,4 @@
+
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <!DOCTYPE HTML>
 <html class="no-js">
@@ -28,7 +29,7 @@
 	$.AMUI.progress.start();
 </script>
 <body>
-	<div class="header post-header">
+	<div class="header post-header" style="background-image:url('<?php $this->options->themeUrl('img/header'.rand(1,5).".jpg"); ?>')">
 			
 		
 		<div class="am-g">

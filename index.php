@@ -1,6 +1,5 @@
 <?php
 /**
- * 这是 Typecho 0.9 系统的一套默认皮肤
  * 
  * @package Typecho SimpleXH Theme 
  * @author starriv
@@ -30,7 +29,7 @@
    	<hr data-am-widget="divider" style="" class="am-divider am-divider-default"
 />
    	<div class="am-article-title post-text">
-   	<span class="am-article-meta">
+   	<span class="am-article-meta" id="index-concent">
 <?php $this->excerpt(400, '...')?>
 
    	</span>

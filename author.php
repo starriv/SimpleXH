@@ -1,53 +1,38 @@
-<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php
 /**
- * 作者页面
+ * 关于我
  *
  *
  * @package custom
  */
-?>
-<?php $this->need('header.php'); ?>
-<div class="am-g">
-<div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
-	
-	
+?><?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
+<?php $this->need('post-header.php'); ?>
 
-<div id="author">
-<img src="http://amui.qiniudn.com/bw-2014-06-19.jpg" alt="" style="margin-top: 2em;"/>
-
-<div class="am-panel am-panel-default">
-    <div class="am-panel-bd">
-    	<span id="author-name">
-	<p><?php $this->author(); ?></p>
-		</span>
+<div class="am-g">   
+<article class="article-bd page">
+    <div class="am-u-lg-12 am-u-md-12 am-u-sm-12 Breadcrumb">
+    	<ol class="am-breadcrumb">
+  <li><a href="<?php $this->options->siteUrl(); ?>" class="am-icon-home">首页</a></li>
+  <li class="am-active">about me</li>
+			</ol>
+<p class="am-article-hd page-info">
+<span class="am-icon-calendar"> </span>&nbsp;<?php $this->date('F j, Y'); ?>  <?php $this->category(','); ?>. By <a href="<?php $this->author->permalink(); ?>"><?php $this->author(); ?></a>
+   	</p>
 	</div>
-</div>
-
-<div class="am-panel am-panel-default">
-    <div class="am-panel-bd">
-    	<div class="" id="author-sns">
-<a href="" class="am-icon-btn am-icon-weibo"></a>
-<a href="" class="am-icon-btn am-icon-qq"></a>
-<a href="" class="am-icon-btn am-icon-weixin"></a>
-<a href="" class="am-icon-btn am-icon-envelope-o"></a>
-		</div>
-	</div>
-</div>
-
-<pre>
-	
-	
-</pre>
 
 
-
-<ul class="am-list am-list-static">
-  <li></li>
-</ul>
+<hr data-am-widget="divider" style="" class="am-divider am-divider-default"
+/>
+   	<div class="am-article-bd page-text">
+   		<p>		
+   			<?php $this->content(); ?>
+   		</p>
+   	</div> 	  	  
+   </article>
 
 </div>
-</div>	
+<div class="comments">
+	<?php $this->need('comments.php'); ?>
 </div>
 <?php $this->need('sidebar-left.php'); ?>
 <?php $this->need('sidebar-right.php'); ?>

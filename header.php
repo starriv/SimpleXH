@@ -29,12 +29,11 @@
     <?php $this->header(); ?>
 </head>
 <script type="text/javascript">
-	$.AMUI.progress.start();
+	            $.AMUI.progress.start();
+
 </script>
 <body>
-	<div class="header">
-			
-		
+	<div class="header" style="background-image:url('<?php $this->options->themeUrl('img/header'.rand(1,5).".jpg"); ?>')">
 		<div class="am-g">
   		<div class="am-u-lg-12 am-u-sm-12">
 
