@@ -35,7 +35,7 @@
    	</span>
 
 <div id="button">
-<button type="button"  id="check" class="am-btn am-btn-primary btn-loading-example"><a href="<?php $this->permalink() ?>">查看原文</a></button></div>
+<a href="<?php $this->permalink() ?>"><button type="button"  id="check" class="am-btn am-btn-primary btn-loading-example">查看原文</button></a></div>
    	</div>
   
   </div>
