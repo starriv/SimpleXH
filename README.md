@@ -1,4 +1,3 @@
-*** 因没有时间继续维护且我已不再用Typecho，不建议再使用***
 #SimpleXH 2.0
 2015/1/27更新，主要优化了UI，配置方面，集成了主要修改位置，可快捷配置。
 * conf.php 配置您的个人信息，例如各种页面，图片的地址,友情连接地址。（注：微博秀宽度使用250px最佳）
@@ -8,7 +7,7 @@
 #感谢
 感谢国产优秀开源前端框架Amazeui
 * [Amazeui](http://amazeui.org/)
-* [Jianghua Huang ](http://huangjianghua.cn/)在2.0中提交了大量代码
+* [Jianghua Huang ](http://huangjianghua.cn/)
 
 #版权
 <p>采用MIT协议分发</p>
@@ -21,9 +20,3 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </blockquote>
-
-#Demo
-[http://121.42.53.24/](http://121.42.53.24/)
-##Demo 2
-此为Jianghua Huang fork之后的风格
-[http://121.42.53.24:81](http://121.42.53.24:81/)
